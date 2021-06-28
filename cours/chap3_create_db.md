@@ -206,7 +206,7 @@ CREATE TABLE `pilots` (
 - La table pilots possède une clé étrangère pilots.compagny qui se référencera à la clé **comp** de la table compagnies. Ci-dessous voici la définition de cette clé étrangère que vous devez implémenter également dans la table :
 
 ```sql
-ALTER TABLE pilots ADD CONSTRAINT fk_pilots_compagny FOREIGN KEY (compagny) REFERENCES compagnies(`comp`);
+ALTER TABLE pilots ADD CONSTRAINT fk_pilots_compagny_compagnies FOREIGN KEY (compagny) REFERENCES compagnies(`comp`);
 
 ```
 

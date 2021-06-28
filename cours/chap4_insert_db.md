@@ -1,6 +1,6 @@
 # Insertion des données
 
-Nous allons aborder dans ce chapitre l'aspect LMD (langage de manipulation des données) de MySQL.
+Nous allons aborder dans ce chapitre l'aspect LMD ou DML en anglais (langage de manipulation des données) de MySQL.
 
 On a trois instructions :
 
@@ -38,7 +38,7 @@ INSERT INTO table (nom_colonne_1, nom_colonne_2, ...
  VALUES
  ('valeur 1', 'valeur 2', ...),
  ('valeur 11', 'valeur 22', ...),
- ('valeur 111', 'valeur 222', ...),
+ ('valeur 111', 'valeur 222', ...);
 ```
 
 
