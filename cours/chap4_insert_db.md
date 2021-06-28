@@ -1,6 +1,6 @@
 # Insertion des données
 
-Nous allons aborder dans ce chapitre l'aspect LMD (langage de manipulation des données) de MySQL.
+Nous allons aborder dans ce chapitre l'aspect LMD ou DML en anglais (langage de manipulation des données) de MySQL.
 
 On a trois instructions :
 
